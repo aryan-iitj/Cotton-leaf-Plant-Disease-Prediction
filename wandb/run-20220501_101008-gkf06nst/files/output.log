@@ -1,0 +1,24 @@
+['test', 'train', 'val']
+['test', 'train', 'val']
+['diseased cotton leaf', 'diseased cotton plant', 'fresh cotton leaf', 'fresh cotton plant']
+No. of training examples for diseased cotton leaf: 289
+['dis_leaf (1)_iaip.jpg', 'dis_leaf (10)_iaip.jpg', 'dis_leaf (101)_iaip.jpg', 'dis_leaf (102)_iaip.jpg', 'dis_leaf (103)_iaip.jpg']
+Number Of Images in diseased cotton leaf = 289
+Number Of Images in diseased cotton plant = 815
+Number Of Images in fresh cotton leaf = 427
+Number Of Images in fresh cotton plant = 421
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+images.shape: torch.Size([128, 3, 32, 32])
+out.shape: torch.Size([128, 4])
+out[0]: tensor([-0.0188, -0.0343,  0.0193, -0.0275], grad_fn=<SelectBackward0>)
+Epoch [0], train_loss: 1.4142, val_loss: 1.3749, val_acc: 0.3083
+Epoch [1], train_loss: 1.2397, val_loss: 1.1977, val_acc: 0.4625
+Epoch [2], train_loss: 1.0337, val_loss: 1.0234, val_acc: 0.5178
+Epoch [3], train_loss: 0.8283, val_loss: 0.6445, val_acc: 0.7233
+Epoch [4], train_loss: 0.6789, val_loss: 0.6183, val_acc: 0.7589
+Epoch [5], train_loss: 0.5299, val_loss: 0.4669, val_acc: 0.8024
+Epoch [6], train_loss: 0.4551, val_loss: 0.3925, val_acc: 0.8617
+Epoch [7], train_loss: 0.3807, val_loss: 0.4448, val_acc: 0.8300
+CPU times: total: 1.19 s
+Wall time: 2min 17s

@@ -1,0 +1,12 @@
+
+['test', 'train', 'val']
+['test', 'train', 'val']
+['diseased cotton leaf', 'diseased cotton plant', 'fresh cotton leaf', 'fresh cotton plant']
+No. of training examples for diseased cotton leaf: 289
+['dis_leaf (1)_iaip.jpg', 'dis_leaf (10)_iaip.jpg', 'dis_leaf (101)_iaip.jpg', 'dis_leaf (102)_iaip.jpg', 'dis_leaf (103)_iaip.jpg']
+Number Of Images in diseased cotton leaf = 289
+Number Of Images in diseased cotton plant = 815
+Number Of Images in fresh cotton leaf = 427
+Number Of Images in fresh cotton plant = 421
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
